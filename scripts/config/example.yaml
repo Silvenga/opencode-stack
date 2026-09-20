@@ -1,0 +1,10 @@
+---
+name: example
+config:
+  message: loaded through the dist-deployed config-resolver
+  shell: $(env:SHELL)
+  note: $(file:notes.txt)
+---
+name: second
+config:
+  source: duplicate-name precedence demo, second document
