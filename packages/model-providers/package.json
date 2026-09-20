@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "@slvn-opencode/config-resolver",
+  "name": "@slvn-opencode/model-providers",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@opencode/plugin": "^2.0.11",
-    "yaml": "^2.9.1",
+    "@slvn-opencode/config-resolver": "workspace:*",
     "zod": "^4.6.5"
   },
   "devDependencies": {

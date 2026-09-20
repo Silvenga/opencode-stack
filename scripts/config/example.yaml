@@ -8,3 +8,15 @@ config:
 name: second
 config:
   source: duplicate-name precedence demo, second document
+---
+name: model-providers
+config:
+  providers:
+    central-demo:
+      name: Central Demo Provider
+      models:
+        central-model:
+          name: Central Demo Model
+          limit:
+            context: 1000000
+            output: 64000

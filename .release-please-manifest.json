@@ -1,3 +1,4 @@
 {
-  "packages/config-resolver": "0.0.0"
+  "packages/config-resolver": "0.0.0",
+  "packages/model-providers": "0.0.0"
 }

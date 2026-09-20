@@ -54,6 +54,10 @@ cat > "$STATE/opencode.jsonc" <<JSON
       "options": {
         "paths": ["\$(env:SLVN_DEV_CONFIG)"]
       }
+    },
+    {
+      "package": "file://$DIST/model-providers",
+      "options": {}
     }
   ]
 }

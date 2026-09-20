@@ -5,6 +5,9 @@
   "packages": {
     "packages/config-resolver": {
       "component": "@slvn-opencode/config-resolver"
+    },
+    "packages/model-providers": {
+      "component": "@slvn-opencode/model-providers"
     }
   }
 }
