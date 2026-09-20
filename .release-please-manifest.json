@@ -1,5 +1,3 @@
 {
-  "packages": {
-    "packages/config-resolver": "0.0.0"
-  }
+  "packages/config-resolver": "0.0.0"
 }
