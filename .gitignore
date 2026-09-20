@@ -1,0 +1,8 @@
+node_modules/
+dist/
+coverage/
+.idea/
+.omo/
+*.tsbuildinfo
+scripts/config/.state/
+.env

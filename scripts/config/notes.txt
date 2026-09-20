@@ -1,0 +1,2 @@
+This note is inlined by the file provider.
+It has multiple lines, and YAML-significant characters: key: value [brackets] {braces}.
